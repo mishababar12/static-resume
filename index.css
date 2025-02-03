@@ -1,0 +1,318 @@
+body {
+    background: linear-gradient(183deg, rgba(247, 243, 245, 0.8), rgba(207, 130, 150, 0.8))}
+*{font-family: system-ui;
+    margin: 0;
+    padding: 0;
+}
+.clearfix{clear:both}
+
+.main {
+    height: 100%;
+    width: 900px;
+    background:  linear-gradient(183deg, rgba(231, 146, 217, 0.8), rgba(189, 105, 128, 0.8));
+    padding: 10px;
+    margin: 20px auto;
+   
+}
+
+.left-section {
+    width: 310px;
+    background: linear-gradient(183deg, rgba(199, 73, 106, 0.9), rgba(206, 122, 171, 0.9)); 
+    padding: 50px 20px;
+    border-radius: 5px;
+    height: 50%;
+    float: left;
+}
+.right-section{
+    margin-left: 10px;
+    width: 540px;
+    background: linear-gradient(183deg, rgba(250, 248, 248, 0.9), rgba(229, 236, 213, 0.9)); 
+    height: 100%;
+    border-radius: 5px;
+    float: left;
+}
+
+.name {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.d_p {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    
+}
+
+.profile {
+    background: rgba(190, 52, 98, 0.15); 
+    padding:20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.profile img {
+    width: 130px;
+    height: 130px; 
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    top: -75px;
+    left: 27%;
+   
+}
+h2{
+    background: linear-gradient(#949c82, #AF1740);
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 21px;
+    padding-left: 5px;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 60px;
+    padding-right: 5px;
+}
+
+.about_P {
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-weight: 400;
+   
+}
+
+.p_h {
+    margin-top: 20px;
+    background: rgba(94, 24, 24, 0.1); 
+    padding: 15px;
+    border-radius: 24px;
+    padding-left: 20px;
+    color: white;
+    
+}
+
+.p_h i {
+    margin-right: 10px; 
+    font-size: 18px;
+}
+
+.content-inner {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #7c0444;
+    letter-spacing: 0.2em;
+    text-decoration: underline;
+
+}
+.para{
+    font-size: 16px;
+    color: #6d0423;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.box{width:50%; float: left; }
+.box img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    background-color:#89aac0;
+    box-shadow: 0 4px 6px rgba(56, 54, 54, 0.1);
+}
+.box p{
+    padding-left: 67px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #6d0423;
+    font-weight: 600;
+}
+
+
+.h_box{ margin-top:2%; margin-bottom: 2%; float: left; padding:10px; text-align: center;}
+.h_box img{width: 50px;
+           height: 30px;
+        }
+.h_box p{font-size: 16px; font-weight: 600;color: #6d0423; text-align: center;}
+
+h3 {
+    background: linear-gradient(#949c82, #AF1740);
+    padding: 10px 15px;
+    width: 180px;
+    border-radius: 21px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-left: 20px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-right:20px;
+    text-align: center;
+    
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: calc(100% + 10px);
+    height: 2px;
+    width: 300px;
+    
+}
+.bx{
+    font-size: 20px;
+    padding-right: 10px;
+    vertical-align: bottom;
+}
+.l_p {
+    color: white; 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    position: relative;
+    font-weight: 600;
+    
+}
+
+/* Styling for the span elements (circles) */
+.l_p span {
+    width: 16px; 
+    height: 16px; 
+    margin-left: 8px; 
+    border-radius: 50%; 
+    background: rgb(189, 35, 120); 
+    border: none; 
+    display: inline-block; 
+}
+
+/* Styling for unfilled circles */
+.l_p span[style*="background: transparent"] {
+    background: transparent; 
+    border: 4px solid rgb(15, 172, 28); 
+}
+.contactInfo a {
+    color: white; 
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contactInfo a:hover {
+    text-decoration: underline; 
+  }
+  
+  
+  .contactInfo .title {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color:white; 
+  }
+
+.contactInfo ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contactInfo ul li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contactInfo ul li .icon {
+    margin-right: 12px;
+    color: #86055b;
+    font-size: 1.1em;
+  }
+  
+  .contactInfo ul li .text {
+    color: #ebe7e9;
+    font-weight: 600;
+  }
+  .education-grid {
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 10px 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+    
+  }
+  
+  .education-grid .year {
+    font-weight: 500;
+    color: #4b0924; 
+  }
+  
+  .education-grid .degree, .education-grid .institution {
+    color: #6d0423;
+    font-weight: 600;
+  }
+  
+  .institution{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .toggle-button {
+    background-color: #8e5982;
+    color: rgb(249, 243, 247);
+    border: none;
+    padding: 12px 20px; 
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 0px;
+    display: inline-block; 
+    width: auto; 
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #682978;
+  }
+  
+  .toggle-button:active {
+    transform: scale(0.98); /* Slightly shrinks on click for feedback */
+  }
+  
+  /* Responsive adjustment for smaller screens */
+  @media (max-width: 768px) {
+    .toggle-button {
+      padding: 6px 12px; 
+      font-size: 12px;
+    }
+  }
+  .skills-section {
+    display: block; 
+    margin-left: 20px;
+  }
+  
